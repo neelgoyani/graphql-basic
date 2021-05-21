@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Noto+Sans+TC&display=swap");
+
+.events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  font-family: "Pacifico", cursive;
+}
+
+.createEvent {
+  display: flex;
+  flex-direction: column;
+}
+
+.event_create {
+  display: flex;
+}
+
+.createEvent > input {
+  height: 30px;
+  font-size: 25px;
+  margin: 5px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.createEvent label {
+  margin-left: 5px;
+  font-size: 20px;
+}
+.createEvent_box {
+  margin-top: 1rem;
+  display: flex;
+  border: 1px solid #3a3a3c;
+  border-radius: 7px;
+  width: 50rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.createEvent_box button {
+  border: none;
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #3a3a3c;
+  color: white;
+}
+
+.loader {
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #3a3a3c; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

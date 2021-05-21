@@ -1,0 +1,36 @@
+.modal {
+  position: fixed;
+  width: 90%;
+  max-width: 90%;
+  top: 20vh;
+  left: 5%;
+  background-color: white;
+  box-shadow: 0 2px 8px black;
+}
+.modal_title {
+  background-color: #3a3a3c;
+  color: white;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.modal_action button {
+  background-color: #3a3a3c;
+  color: white;
+}
+
+.modal_action button {
+  padding: 4px;
+  border: none;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (min-width: 750px) {
+  .modal {
+    width: 50rem;
+    left: calc(calc(100% - 50rem) / 2);
+  }
+}

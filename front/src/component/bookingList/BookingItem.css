@@ -1,0 +1,22 @@
+.bookingitem {
+  border: 1px solid black;
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bookingitem > button {
+  border: none;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #3a3a3c;
+  color: white;
+  height: 30px;
+}
